@@ -55,6 +55,7 @@
 				<version>1.0.7</version> 
 				<executions>
 					<execution>
+						<id>default-test</id>
 						<phase>integration-test</phase>
 						<goals>
 							<goal>test</goal>
