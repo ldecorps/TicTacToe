@@ -52,13 +52,6 @@
 			<plugin>
 				<groupId>nl.sijpesteijn.testing.fitnesse.plugins</groupId>
 				<artifactId>mafia-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>content</goal>
-						</goals>
-					</execution>
-				</executions>
 				<configuration>
 					<statics>
 						<static>!define TEST_SYSTEM {slim}</static>
@@ -81,33 +74,6 @@
 							<version>1.2.15</version>
 						</dependency>
 					</excludeDependencies>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>nl.sijpesteijn.testing.fitnesse.plugins</groupId>
-				<artifactId>mafia-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>report</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>nl.sijpesteijn.testing.fitnesse.plugins</groupId>
-				<artifactId>mafia-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<phase>integration-test</phase>
-						<goals>
-							<goal>test</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
 					<suites>
 						<suite>TicTacToe</suite>
 					</suites>
