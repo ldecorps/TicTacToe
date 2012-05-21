@@ -1,0 +1,9 @@
+The computer picks the next available cell on the board
+
+-|script                           |
+|human enters the game            |
+|check|number of cells ticked is|0|
+|human ticks a cell               |
+|check|number of cells ticked is|1|
+|computer plays                   |
+|check|number of cells ticked is|2|

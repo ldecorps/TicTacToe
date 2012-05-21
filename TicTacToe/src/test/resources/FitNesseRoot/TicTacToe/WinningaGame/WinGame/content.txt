@@ -1,0 +1,29 @@
+-|Tic Tac Toe Driver  |
+|add input|winner ?  |
+|A1       |nobody    |
+|B1       |nobody    |
+|A2       |nobody    |
+|B2       |nobody    |
+|A3       |Computer 1|
+
+
+!***> other wins
+
+-|Tic Tac Toe Driver  |
+|add input|winner ?  |
+|A1       |nobody    |
+|B1       |nobody    |
+|A2       |nobody    |
+|B2       |nobody    |
+|C1       |nobody    |
+|B3       |Computer 2|
+
+-|Tic Tac Toe Driver  |
+|add input|winner ?  |
+|A1       |nobody    |
+|B1       |nobody    |
+|B2       |nobody    |
+|C2       |nobody    |
+|C3       |Computer 1|
+
+***!

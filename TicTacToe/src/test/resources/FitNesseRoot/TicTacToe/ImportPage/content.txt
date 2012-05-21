@@ -1,0 +1,6 @@
+|Import                     |
+|decorps.play.tictactoe.core|
+|decorps.play.tictactoe.util|
+
+|script|Tic Tac Toe Driver|
+|start new game           |

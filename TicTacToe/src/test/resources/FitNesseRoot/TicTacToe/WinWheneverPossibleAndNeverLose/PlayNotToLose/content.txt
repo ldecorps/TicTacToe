@@ -1,0 +1,5 @@
+-|script|
+|tick |B2          |
+|tick |A1          |
+|tick |B1          |
+|check|next best cell|B3|

@@ -1,0 +1,15 @@
+![: scenario : Given a new game has started
+start new game
+]!
+
+![: scenario: When a human enters the game
+player enters the game:Laurent
+]!
+
+![: scenario: Then the computer wins
+check: winner : Computer
+]!
+
+![: scenario: Then _ wins:userName
+check: winner : @userName
+]!

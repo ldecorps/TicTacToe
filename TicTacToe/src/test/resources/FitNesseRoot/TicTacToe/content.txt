@@ -1,0 +1,13 @@
+!contents -R2 -g -p -f -h
+
+!****> Config
+
+#!define ROOT_DIR {C:\java\TicTacToe}
+!define ROOT_DIR {/Users/ldecorps/git/ldecorps/ldecorps/TicTacToe}
+!path ${ROOT_DIR}/target/test-classes/
+!path ${ROOT_DIR}/target/classes/
+!define TEST_SYSTEM {slim} 
+!path /Users/ldecorps/tools/fitnesse.jar
+#variable defined: INTERNAL_PORT=9123 
+
+****!

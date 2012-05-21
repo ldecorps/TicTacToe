@@ -1,0 +1,7 @@
+-|script|
+|tick          |A1               |
+|tick          |B1               |
+|tick          |A2               |
+|tick          |B2               |
+|reject        |this cell wins|B3|
+|this cell wins|A3               |

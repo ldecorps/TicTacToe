@@ -1,0 +1,3 @@
+-|script|
+|play |1000               |games|
+|check|player one has lost|0    |

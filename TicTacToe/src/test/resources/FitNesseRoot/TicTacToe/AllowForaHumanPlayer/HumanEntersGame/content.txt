@@ -1,0 +1,6 @@
+![: script 
+Given a new game has started
+When a human enters the game
+Then nobody wins
+]!
+
