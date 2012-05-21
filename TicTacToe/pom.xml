@@ -52,6 +52,7 @@
 			<plugin>
 				<groupId>nl.sijpesteijn.testing.fitnesse.plugins</groupId>
 				<artifactId>mafia-maven-plugin</artifactId>
+				<version>1.0.7</version> 
 				<configuration>
 					<statics>
 						<static>!define TEST_SYSTEM {slim}</static>
