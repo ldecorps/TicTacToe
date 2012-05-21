@@ -55,11 +55,6 @@
 				<version>1.0.7</version> 
 				<executions>
 					<execution>
-						<goals>
-							<goal>content</goal>
-						</goals>
-					</execution>
-					<execution>
 						<phase>integration-test</phase>
 						<goals>
 							<goal>test</goal>
