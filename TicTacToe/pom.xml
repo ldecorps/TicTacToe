@@ -69,6 +69,8 @@
 					<resources>
 						<resource>${basedir}/src/main/resources</resource>
 					</resources>
+					<wikiRoot>${basedir}/src/test/resources</wikiRoot>
+					<nameRootPage>FitNesseRoot</nameRootPage>
 					<targets>
 						<target>./classes</target>
 					</targets>
