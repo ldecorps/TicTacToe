@@ -3,4 +3,4 @@
 |tick |B1          |
 |tick |A2          |
 |tick |B2          |
-|check|next best cell|C3|
+|check|next best cell|A3|

@@ -1,0 +1,27 @@
+# File created by Mafia plugin on Mon May 21 10:00:15 CEST 2012
+# Version: 1.0.0
+# More info: https://github.com/sijpesteijn/mafia-maven-plugin
+
+!note Statics:
+!define TEST_SYSTEM {slim}
+!define fixturePackage {fitnesse.slim.test}
+
+!note Resources:
+!path /Users/ldecorps/git/ldecorps/TicTacToe/TicTacToe/src/main/resources
+
+!note Targets:
+!path ./classes/target/classes/
+
+!note Class Dependencies:
+!path /Users/ldecorps/git/ldecorps/TicTacToe/TicTacToe/target/classes/
+!path /Users/ldecorps/.m2/repository/org/fitnesse/fitnesse/20111025/fitnesse-20111025.jar
+!path /Users/ldecorps/.m2/repository/org/hamcrest/hamcrest-core/1.3.RC2/hamcrest-core-1.3.RC2.jar
+!path /Users/ldecorps/.m2/repository/junit/junit/4.10/junit-4.10.jar
+!path /Users/ldecorps/.m2/repository/org/jmock/jmock-legacy/2.6.0-RC2/jmock-legacy-2.6.0-RC2.jar
+!path /Users/ldecorps/.m2/repository/org/jmock/jmock/2.6.0-RC2/jmock-2.6.0-RC2.jar
+!path /Users/ldecorps/.m2/repository/org/hamcrest/hamcrest-library/1.3.RC2/hamcrest-library-1.3.RC2.jar
+!path /Users/ldecorps/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar
+!path /Users/ldecorps/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar
+!path /Users/ldecorps/.m2/repository/org/jmock/jmock-junit4/2.6.0-RC2/jmock-junit4-2.6.0-RC2.jar
+!path /Users/ldecorps/.m2/repository/junit/junit-dep/4.4/junit-dep-4.4.jar
+!note War dependencies:
