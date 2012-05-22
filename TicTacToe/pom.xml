@@ -42,9 +42,7 @@
 				<configuration>
 					<port>9090</port>
 					<statics>
-						<static>!define TEST_SYSTEM {slim}</static>
-						<!-- When you use the default generated fitnesse layout you should 
-							use your own fixture package <static>!define fixturePackage {nl.yourcompany.application.testing.fixtures}</static> -->
+						<!--  <static>!define TEST_SYSTEM {slim}</static>-->
 						<static>!define fixturePackage {fitnesse.slim.test}</static>
 					</statics>
 					<resources>
