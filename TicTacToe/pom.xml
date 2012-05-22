@@ -35,25 +35,12 @@
 	</dependencies>
 	<build>
 		<plugins>
-			<!-- <plugin> <groupId> nl.sijpesteijn.testing.fitnesse.plugins </groupId> 
-				<artifactId>mafia-maven-plugin</artifactId> <version>1.0.7</version> <configuration> 
-				<statics> <static>!define TEST_SYSTEM {slim}</static> <static>!path /Users/ldecorps/tools/fitnesse.jar</static> 
-				<static>!path ${project.build.directory}/test-classes/</static> <static>!path 
-				${project.build.directory}/classes/</static> </statics> <port>81</port> <log>${basedir}/log/</log> 
-				<retainDays>14</retainDays> <wikiRoot>${basedir}</wikiRoot> <nameRootPage>FitNesseRoot</nameRootPage> 
-				<stopTestsOnFailure>false</stopTestsOnFailure> <stopTestsOnException>false</stopTestsOnException> 
-				<stopTestsOnWrong>false</stopTestsOnWrong> <stopTestsOnIgnore>false</stopTestsOnIgnore> 
-				<suites> <suite>TicTacToe</suite> </suites> <suitePageName /> <workDirectory>${project.build.directory}/fitnesse</workDirectory> 
-				<fitnesseOutputDirectory>${project.build.directory}/site/fitnesse</fitnesseOutputDirectory> 
-				<reportTemplate>/location/report.template</reportTemplate> </configuration> 
-				<executions> <execution> <phase>site</phase> <goals> <goal>report</goal> 
-				</goals> </execution> </executions> </plugin> -->
-
 			<plugin>
 				<groupId>nl.sijpesteijn.testing.fitnesse.plugins</groupId>
 				<artifactId>mafia-maven-plugin</artifactId>
 				<version>1.0.7</version>
 				<configuration>
+					<port>9090</port>
 					<statics>
 						<static>!define TEST_SYSTEM {slim}</static>
 						<!-- When you use the default generated fitnesse layout you should 
