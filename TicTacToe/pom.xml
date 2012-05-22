@@ -75,6 +75,10 @@
 							<version>1.2.15</version>
 						</dependency>
 					</excludeDependencies>
+					<stopTestsOnFailure>true</stopTestsOnFailure>
+					<stopTestsOnException>true</stopTestsOnException>
+					<stopTestsOnWrong>true</stopTestsOnWrong>
+					<stopTestsOnIgnore>false</stopTestsOnIgnore>
 					<suites>
 						<suite>TicTacToe</suite>
 					</suites>
